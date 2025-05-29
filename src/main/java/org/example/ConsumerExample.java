@@ -7,6 +7,8 @@ import java.util.function.Consumer;
 public class ConsumerExample {
     public static void main(String[] args) {
 
+        // metodo que não recebe argumentos e que não retorna nada também
+
         List<Integer> numeros = Arrays.asList(1,2,3,4,5,6,7);
 
         // metodo mais simples utilizando lambda
