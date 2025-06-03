@@ -13,7 +13,7 @@ public class PredicateExample {
         List<String> linguagens = Arrays.asList("java","c#","c","kotlin","rust","javascript", "cobool","python","");
 
         // essa é a condição para retornar o valor
-        Predicate<String> maisDe5char =  linguagem -> linguagem.length() > 5;
+        Predicate<String> maisDe5char =  linguagem -> linguagem.length() > 9;
 
 
         //no final ele vai printar tudo o que tem mais de 5 letras
@@ -25,7 +25,7 @@ public class PredicateExample {
 
         // esse é o método mais curtinho
         linguagens.stream()
-                .filter(linguagen -> linguagen.length()>5)
+                .filter(linguagen -> linguagen.length()>9)
                 .forEach(System.out::println);
     }
 }
